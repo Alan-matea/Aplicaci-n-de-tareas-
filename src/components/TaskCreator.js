@@ -18,7 +18,7 @@ export const TaskCreator = props => {
         value={newTaskName}
         onChange={updateNewTaskValue}
       />
-      <button className="btn btn-primary mt-1" onClick={createNewTask}>
+      <button className="btn btn-danger mt-1" onClick={createNewTask}>
       Añadir
       </button>
     </div>

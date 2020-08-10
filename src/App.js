@@ -66,7 +66,7 @@ function App() {
           </thead>
           <tbody>{taskTableRows(false)}</tbody>
         </table>
-        <div className="bg-secondary text-white text-center p-2">
+        <div className="bg-success text-white text-center p-2">
           <VisibilityControl
             description="Completed Tasks"
             isChecked={showCompleted}
